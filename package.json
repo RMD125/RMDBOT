@@ -1,0 +1,22 @@
+{
+  "name": "rmdbot",
+  "version": "1.0.0",
+  "description": "Bot WhatsApp avec 100 commandes",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "rmdbot"
+  ],
+  "author": "RMD",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.4.0",
+    "axios": "^1.4.0",
+    "pino": "^8.14.1"
+  }
+}
